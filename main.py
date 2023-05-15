@@ -4,11 +4,18 @@ import adafruit_ads1x15.ads1115 as ADS
 from adafruit_ads1x15.analog_in import AnalogIn
 import os
 import sys 
+import requests
 import logging
 import spidev as SPI
 sys.path.append("..")
 from lib import LCD_2inch
 from PIL import Image,ImageDraw,ImageFont
+import json
+
+
+# Python Request informations
+url = "https://iotvase.azurewebsites.net/iot"
+
 
 # Raspberry Pi pin information
 RST = 27
@@ -57,6 +64,12 @@ def show(data):
         ads_ch0 = LM35_channel.value
         ads_Voltage_ch0 = ads_ch0 * ads_bit_Voltage
         Temperature = int(ads_Voltage_ch0 / lm35_constant)
+        dataobj = {
+            "lux": LDR_Percent,
+            "humidity": Moisture_Percent,
+            "temperature": Temperature
+        }
+        datasend = requests.post(url, dataobj)
         if (LDR_Percent < 20):
             if(LowIn_DataSent == 0):
                 #client.connect(('0.0.0.0', 8080))
