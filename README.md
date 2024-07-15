@@ -4,8 +4,8 @@
 
 ## Overview
 My Green is an interactive plant management system designed to enhance the experience of growing and caring for plants. The project leverages embedded systems and web technologies to create a user-friendly interface for monitoring and interacting with plants. 
-![Untitled](https://github.com/HoChanny/MyGreen/assets/91381230/dd2c1b48-2db7-461c-9ba3-a7a58972a786)
 
+![Untitled](https://github.com/HoChanny/MyGreen/assets/91381230/dd2c1b48-2db7-461c-9ba3-a7a58972a786)
 
 ## Project Goals
 - **Enhanced Plant Care**: Provide users with a system that helps them monitor and manage the health of their plants effectively.
@@ -48,6 +48,9 @@ My Green is an interactive plant management system designed to enhance the exper
 
 ## Key Learning and Impact
 The My Green project allowed me to deepen my understanding of embedded systems and their integration with web technologies. I gained hands-on experience with Raspberry Pi and various sensors, enhancing my skills in hardware-software integration. The project also improved my ability to manage and coordinate a multidisciplinary team, from concept to execution. This experience has equipped me with the knowledge and skills to tackle complex IoT projects and drive innovation in the field of interactive systems.
+
+## 📺 Demo Video
+Watch the demo video to see My Green in action: [YouTube Video](https://www.youtube.com/watch?v=RMGLtYVKPI0) (Note: Video supports only Korean)
 
 ## 📬 Contact
 Feel free to reach out for any queries or collaboration opportunities:
