@@ -1,0 +1,17 @@
+pcm.!default {
+    type asym
+    playback.pcm {
+        type plug
+        slave.pcm "hw:0,0" # bcm2835 Headphones for playback
+    }
+    capture.pcm {
+        type plug
+        slave.pcm "hw:1,0" # USB PnP Sound Device for capture
+    }
+}
+
+ctl.!default {
+    type hw
+    card 0 # bcm2835 Headphones for control interface
+}
+
