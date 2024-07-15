@@ -1,6 +1,6 @@
 # My Green
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=My%20Green&height=100&fontSize=40&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=waving&color=A3C9A8&text=My%20Green&height=100&fontSize=40&fontColor=ffffff)
 
 ## Overview
 My Green is an interactive plant management system designed to enhance the experience of growing and caring for plants. The project leverages embedded systems and web technologies to create a user-friendly interface for monitoring and interacting with plants. 
@@ -57,4 +57,4 @@ Feel free to reach out for any queries or collaboration opportunities:
 - **GitHub**: [freecoderer](https://github.com/freecoderer)
 - **LinkedIn**: [Donghyun Kim](https://www.linkedin.com/in/kdh1999dev)
 
-![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=7F7FD5)
+![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=A3C9A8)
