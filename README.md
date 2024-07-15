@@ -5,8 +5,6 @@
 ## Overview
 My Green is an interactive plant management system designed to enhance the experience of growing and caring for plants. The project leverages embedded systems and web technologies to create a user-friendly interface for monitoring and interacting with plants. 
 
-Visit the live site: [My Green](https://mygreen.example.com)
-
 ## Project Goals
 - **Enhanced Plant Care**: Provide users with a system that helps them monitor and manage the health of their plants effectively.
 - **User Interaction**: Allow users to interact with their plants through a web app, making plant care more engaging and educational.
